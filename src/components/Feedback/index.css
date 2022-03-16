@@ -1,0 +1,31 @@
+/* Write your CSS code here. */
+.outer-container {
+  min-height: 100vh;
+  background-image: linear-gradient(to left, #ffeeee, #ffc0bb);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.inner-container {
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 10px;
+  width: 500px;
+  min-height: 400px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.love-image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
